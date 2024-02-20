@@ -1,1 +1,17 @@
-
+ td
+ (
+     border: 1px solid blue;
+ )
+ th, table
+ (    
+     border: 3px solid black;
+ )
+     table 
+ (
+     border-collapse: collapse;
+ )
+     td, th
+ (
+    padding-left: 10px;
+    padding-right: 10px;
+ )
