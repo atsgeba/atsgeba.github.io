@@ -1,6 +1,6 @@
  :root
 {
-  Pink: ##ff33f3;
+  --Pink: ##ff33f3;
   --UNC-Gold: #f6b000;
   --UNC-Gray: #8a8a8d;
 }
@@ -10,7 +10,7 @@ body
 }
 *
 {
-    color: var(--UNC-Blue);
+    color: var(--Pink);
     text-align: center;
 }
 h1
@@ -23,7 +23,7 @@ nav
 }
 section
 {
-    border: 5px var(--UNC-Blue) solid;
+    border: 5px var(--Pink) solid;
     margin: 5px;
     margin-top: 50px;
 }
