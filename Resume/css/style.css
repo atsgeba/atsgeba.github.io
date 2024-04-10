@@ -1,7 +1,7 @@
- :root
+:root
 {
-  --Pink: #BB33FF;
-  --UNC-Gold: #BB33FF;
+  --UNC-Blue: #013c65;
+  --UNC-Gold: #f6b000;
   --UNC-Gray: #8a8a8d;
 }
 body
@@ -10,7 +10,7 @@ body
 }
 *
 {
-    color: var(#BB33FF);
+    color: var(--UNC-Blue);
     text-align: center;
 }
 h1
@@ -19,17 +19,17 @@ h1
 }
 nav
 {
-    border: 7px var(#C436DA) solid;
+    border: 7px var(--UNC-Gold) solid;
 }
 section
 {
-    border: 5px var(#783899 ) solid;
+    border: 5px var(#573497) solid;
     margin: 5px;
     margin-top: 50px;
 }
 .date
 {
-    color: var(#783899);
+    color: var(--UNC-Gold);
 }
 ul
 {
