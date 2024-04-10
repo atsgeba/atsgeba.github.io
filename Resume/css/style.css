@@ -19,11 +19,11 @@ h1
 }
 nav
 {
-    border: 7px var(#BB33FF) solid;
+    border: 7px var(#C436DA) solid;
 }
 section
 {
-    border: 5px var(--Pink) solid;
+    border: 5px var(#783899 ) solid;
     margin: 5px;
     margin-top: 50px;
 }
