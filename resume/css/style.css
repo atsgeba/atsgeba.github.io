@@ -1,9 +1,7 @@
 :root {
-  --UNC-Blue: #013c65;
-  --UNC-Gold: #f6b000;
   --UNC-Gray: #8a8a8d;
-  --Dark-Purple: #6a0dad; /* New dark purple color */
-  --Lighter-Purple: #aa7fd5; /* New lighter purple color */
+  --Dark-Purple: #6a0dad;
+  --Lighter-Purple: #aa7fd5;
 }
 
 body {
@@ -21,7 +19,7 @@ h1 {
 }
 
 nav {
-    border: 7px var(--UNC-Gold) solid;
+    border: 7px var(--Dark-Purple) solid; /* Dark purple border for nav */
 }
 
 section {
@@ -31,7 +29,7 @@ section {
 }
 
 .date {
-    color: var(--UNC-Gold);
+    color: var(--Dark-Purple); /* Dark purple for .date */
 }
 
 ul {
