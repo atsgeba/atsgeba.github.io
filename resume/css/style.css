@@ -1,40 +1,41 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center; /* Center-align all text */
+:root {
+  --UNC-Blue: #013c65;
+  --UNC-Gold: #f6b000;
+  --UNC-Gray: #8a8a8d;
+  --Dark-Purple: #6a0dad; /* New dark purple color */
+  --Lighter-Purple: #aa7fd5; /* New lighter purple color */
 }
 
-header {
-    background-color: #f0f0f0;
-    padding: 20px 0;
+body {
+    background-color: var(--UNC-Gray); /* Gray background */
+}
+
+* {
+    color: var(--Dark-Purple); /* Dark purple text color */
+    text-align: center;
 }
 
 h1 {
-    margin: 5px 0;
+    font-size: calc(12pt + 4vw);
+    color: var(--Dark-Purple); /* Dark purple for h1 */
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-    color: blue;
+nav {
+    border: 7px var(--UNC-Gold) solid;
 }
 
 section {
-    padding: 20px;
-    border: 2px solid #333; /* Dark gray border around each section */
-    margin: 20px auto; /* Center-align sections */
+    border: 5px var(--Dark-Purple) solid; /* Dark purple border for sections */
+    margin: 5px;
+    margin-top: 50px;
 }
 
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #f0f0f0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.date {
+    color: var(--UNC-Gold);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    color: var(--Lighter-Purple); /* Lighter purple for ul */
 }
