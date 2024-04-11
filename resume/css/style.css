@@ -1,7 +1,7 @@
 :root
 {
   --Light-Cream: #edbb99;
-  --Deep-Red: #ccd1d1;
+  --Light-Grey: #ccd1d1;
   --Dark-Brown: #654321;
 }
 body
@@ -19,7 +19,7 @@ h1
 }
 nav
 {
-    border: 7px var(--Deep-Red) solid;
+    border: 7px var(--Light-Grey) solid;
 }
 section
 {
@@ -29,7 +29,7 @@ section
 }
 .date
 {
-    color: var(--Deep-Red);
+    color: var(--Light-Grey);
 }
 ul
 {
