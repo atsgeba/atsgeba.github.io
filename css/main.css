@@ -1,1 +1,46 @@
 
+:root
+{
+    --steelgray: RGB(113,121,126);
+    --glaucous: RGB(96,130,182);
+    --gray: RGB(211,211,211);
+    color: var(--steelgray);
+    background-color:var(--gray)
+}
+
+.title
+{
+  color: var(--glaucous);
+  font-size: 50pt;
+  text-decoration: underline;
+  text-align: center;
+}
+
+ul
+{
+    text-align: center;
+}
+li
+{
+    display: inline;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+img
+{
+    margin: auto;
+    display: block;
+}
+
+section :hover
+{
+    background-color:var(--glaucous);
+}
+
+.footnote
+{
+    font-style: italic;
+    text-align: center;
+    margin-top: 100px;
+}
